@@ -10,9 +10,8 @@ stabilizer:
     optical_flow_kwargs:
       nextPts: 
 
-  
 binarizer:
-  binarizer_name: 'DilateErodeBinarizer'
+  binarizer_name: 'NormalizedDilateErodeBinarizer'
   binarizer_params:
     dilate_kwargs:
       iterations: 1
